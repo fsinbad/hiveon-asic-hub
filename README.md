@@ -4,6 +4,11 @@ This repository contains a Dockerfile to create a Docker image for Hiveon ASIC H
 
 - Knowledge Base: [ASIC Hub installation on Linux](https://hiveon.com/knowledge-base/ASIC-Hub/getting_started/installation-linux/)
 
+## Known issues
+- Issue: Migration files are not persistent.
+  Cause: Updates
+  Plausible solution: find and mount migration files alsong side /etc/asic-hub/.
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
